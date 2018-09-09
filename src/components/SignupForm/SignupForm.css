@@ -1,0 +1,62 @@
+.container{
+    border: 1px solid #e6e6e6;
+    background-color: white;
+    max-width: 350px;
+    padding: 22px 40px;
+}
+.logo{
+    width: 175px;
+    margin: auto;
+}
+
+.headLine{
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 17px;
+    color: #999;
+    text-align: center;
+}
+
+.btn{
+    color: white;
+    background-color: #3897f0;
+    box-shadow: 0;
+    border: 0;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid #3897f0;
+    line-height: 26px;
+    padding: 0 12px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.signUpwithFB{
+
+}
+
+.or{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    color: #999;
+    display: flex;
+    align-items: center;
+}
+.or::before,
+.or::after{
+    content: '';
+    display: block;
+    background-color: #efefef;
+    width: 50px;
+    height: 1px;
+}
+
+.agreeMsg{
+    font-size: 14px;
+    line-height: 17px;
+    color: #999;
+    text-align: center;
+}

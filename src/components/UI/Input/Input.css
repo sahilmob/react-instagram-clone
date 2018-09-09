@@ -1,0 +1,26 @@
+.container {
+position: relative;
+
+}
+
+label{
+    color: #999;
+    font-size: 12px;
+    position: absolute;
+    left: 8px;
+    top: 9px;
+    transition: all 0.2s ease-in-out;
+}
+
+input{
+    box-shadow: 0;
+    border: 0;
+    outline: 0;
+    font-size: 12px;
+    font-weight: 400;
+    background: #fafafa;
+    padding: 9px 0 7px 8px;
+    text-overflow: ellipsis;
+    width: 100%;
+    margin: 5px auto;
+}
