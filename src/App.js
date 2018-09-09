@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import LandingPage from './containers/LandingPage/'
+import LandingPage from './containers/LandingPage/LandingPage'
 import FooterMenu from './components/FooterMenu/FooterMenu'
 import classes from './App.css';
 
