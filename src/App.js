@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import LandingPage from './containers/LandingPage/'
-import FooterMenu from './components/FooterMenu/'
+import FooterMenu from './components/FooterMenu/FooterMenu'
 import classes from './App.css';
 
 class App extends Component {

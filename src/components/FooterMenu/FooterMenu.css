@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+}
+
+.footerMenu{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    flex-grow: 1;
+}
+
+.copyrightText{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    color: #999;
+}
