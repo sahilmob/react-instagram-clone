@@ -7,7 +7,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="app">
         <BrowserRouter>
           <Switch>
             <Route path="/" exact component={LandingPage} />

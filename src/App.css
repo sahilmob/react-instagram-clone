@@ -1,0 +1,15 @@
+.app{
+    max-width: 935px;
+    margin: 0 auto;
+}
+
+.footerMenu{
+    display: flex;
+}
+
+.footerMenu span{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    color: #999;
+}
