@@ -1,20 +1,19 @@
 import React from 'react'
+import Wrapper from './Wrapper'
+import ListItem from './ListItem'
 
 export default () => {
     return (
-        <div>
-            <ul>
-                <li>about us</li>
-                <li>support</li>
-                <li>press</li>
-                <li>api</li>
-                <li>jobs</li>
-                <li>privacy</li>
-                <li>terms</li>
-                <li>profile</li>
-                <li>hashtags</li>
-                <li>language</li>
-            </ul>
-        </div>
+        <Wrapper>
+            <ListItem>about us</ListItem>
+            <ListItem>support</ListItem>
+            <ListItem>press</ListItem>
+            <ListItem>api</ListItem>
+            <ListItem>jobs</ListItem>
+            <ListItem>privacy</ListItem>
+            <ListItem>terms</ListItem>
+            <ListItem>profile</ListItem>
+            <ListItem>language</ListItem>
+        </Wrapper>
     )
 }
