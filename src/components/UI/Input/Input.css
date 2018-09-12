@@ -8,8 +8,8 @@ label{
     font-size: 12px;
     position: absolute;
     left: 8px;
-    top: 9px;
-    transition: all 0.2s ease-in-out;
+    top: 16px;
+    transition: all 0.1s ease-out;
 }
 
 input{
@@ -19,8 +19,13 @@ input{
     font-size: 12px;
     font-weight: 400;
     background: #fafafa;
-    padding: 9px 0 7px 8px;
+    padding: 10px 0px 7px 8px;
     text-overflow: ellipsis;
+    max-width: 100%;
     width: 100%;
+    box-sizing: border-box;
     margin: 5px auto;
+    height: 39px;
+    box-sizing: border-box;
+    border: 1px solid #e6e6e6;
 }
