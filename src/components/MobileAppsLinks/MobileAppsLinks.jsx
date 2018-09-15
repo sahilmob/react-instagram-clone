@@ -1,7 +1,7 @@
 import React from 'react'
-import apple from '../../statics/apple.png'
-import google from '../../statics/google.png'
-import microsoft from '../../statics/microsoft.png'
+import apple from '../../static/img/apple.png'
+import google from '../../static/img/google.png'
+import microsoft from '../../static/img/microsoft.png'
 import classes from './MobileAppsLinks.css'
 
 export default () => {

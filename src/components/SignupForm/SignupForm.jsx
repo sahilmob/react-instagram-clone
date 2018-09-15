@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Input from '../UI/Input/Input'
 import classes from './SignupForm.css'
-import igLogo from '../../statics/instagram.svg'
+import igLogo from '../../static/img/instagram.svg'
 
 export default class SignupForm extends Component {
     changeHandler = (event) => {
