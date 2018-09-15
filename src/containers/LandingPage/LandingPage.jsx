@@ -12,7 +12,7 @@ export default class LandingPage extends Component {
                 <div className="left">
                     <PhoneMockup />
                 </div>
-                <div className="right">
+                <div className={classes.right}>
                     <SignupForm />
                     <RouteChanger msg="Have an account?" pathLink="/login" pathText="Log in" />
                     <MobileAppsLinks />

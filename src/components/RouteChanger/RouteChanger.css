@@ -12,3 +12,16 @@
     color: #262626;
     font-size: 14px;
 }
+
+@media (max-width: 874px){
+    .container{
+        width: 100%;
+    }
+}
+
+@media(max-width: 449px){
+    .container{
+        background-color: transparent;
+        border: none;
+    }
+}

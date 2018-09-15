@@ -7,8 +7,35 @@
     color: #262626;
     font-size: 14px;
 }
+.bottom{
+    display: flex;
+}
 .mobileAppImg{
+    margin-right: 8px;
+}
+.mobileAppImg > img{
     max-width: 136px;
     max-height: 40px;
-    margin-right: 8px;
+}
+
+@media (max-width: 874px){
+    .container{
+        margin-left: 8px;
+    }
+    
+}
+
+@media (max-width: 400px){
+    .container{
+        direction: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bottom{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .mobileAppImg:last-child{
+        margin-top: 5px;
+    }
 }

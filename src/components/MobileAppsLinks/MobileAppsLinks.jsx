@@ -11,10 +11,10 @@ export default () => {
             <div className="top">
                 <p className={classes.text}>Get the app.</p>
             </div>
-            <div className="bottom">
-                <a href="#" target="blank"><img className={classes.mobileAppImg} src={apple} alt="apple" /></a>
-                <a href="#" target="blank"><img className={classes.mobileAppImg} src={google} alt="google" /></a>
-                <a href="#" target="blank"><img className={classes.mobileAppImg} src={microsoft} alt="microsoft" /></a>
+            <div className={classes.bottom}>
+                <a className={classes.mobileAppImg} href="#" target="blank"><img src={apple} alt="apple" /></a>
+                <a className={classes.mobileAppImg} href="#" target="blank"><img src={google} alt="google" /></a>
+                <a className={classes.mobileAppImg} href="#" target="blank"><img src={microsoft} alt="microsoft" /></a>
             </div>
         </div>
     )

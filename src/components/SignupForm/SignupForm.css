@@ -77,3 +77,19 @@
     max-width: 85%;
     margin: 15px auto auto auto;
 }
+
+@media (max-width: 874px){
+    .container{
+        padding-top: 0;
+    }
+}
+
+@media(max-width: 449px){
+    .container{
+        background-color: transparent;
+        border: none;
+        padding: 0px 0px 40px 0px;
+        max-width: 80%;
+        margin: auto;
+    }
+}

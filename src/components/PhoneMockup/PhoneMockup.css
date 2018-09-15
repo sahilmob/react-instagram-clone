@@ -6,3 +6,9 @@
     margin-top: 30px;
     margin-right: -15px;
 }
+
+@media (max-width: 874px){
+    .container{
+        display: none;
+    }
+}
