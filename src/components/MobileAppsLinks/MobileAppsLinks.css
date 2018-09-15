@@ -1,0 +1,13 @@
+.container{
+    margin-top: 20px;
+}
+.text{
+    text-align: center;
+    color: #262626;
+    font-size: 14px;
+}
+.mobileAppImg{
+    max-width: 136px;
+    max-height: 40px;
+    margin-right: 8px;
+}
