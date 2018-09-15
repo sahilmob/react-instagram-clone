@@ -1,0 +1,14 @@
+.container{
+    border: 1px solid #e6e6e6;
+    background-color: white;
+    max-width: 350px;
+    padding: 22px 40px;
+    margin-top: 10px;
+}
+
+.content{
+    margin: 0;
+    text-align: center;
+    color: #262626;
+    font-size: 14px;
+}

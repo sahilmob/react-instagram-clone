@@ -31,6 +31,7 @@ export default class SignupForm extends Component {
                 <Input inputType="password" labelText="Password" nameText="password" changed={this.changeHandler} id="password" />
                 <button className={signUpBtnClasses.join(" ")}>Sign up</button>
                 <span className={classes.agreeMsg}>By signing up, you agree to our <strong>Terms, Data Policy</strong> and <strong>Cookies Policy.</strong></span>
+
             </div>
         )
     }
