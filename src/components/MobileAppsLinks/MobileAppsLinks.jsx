@@ -1,3 +1,4 @@
+/* eslint "jsx-a11y/href-no-hash": "off" */
 import React from 'react'
 import apple from '../../static/img/apple.png'
 import google from '../../static/img/google.png'
