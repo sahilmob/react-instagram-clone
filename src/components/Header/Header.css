@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 930px;
+    padding: 26px 0px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+
+.divider{
+    width: 1px;
+    height: 30px;
+    background-color: black;
+    margin: auto 20px;
+}
+
+.logo{
+    width: 100px;
+}
+
+.icon{
+    margin: auto 15px;
+    font-size: 24px;
+}
+
+.instagramLogo{
+    width: 30px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
