@@ -34,12 +34,16 @@ export default class SearchInput extends Component {
     })
 
   }
+  onClickHandler = () =>{
+    var searchInput = document.getElementById('searchInput')
+    searchInput.focus()
+  }
 
   render() {
     return (
       <div className={classes.container}>
-        <input type="text" className={classes.searchInput} value={this.state.searchInput} onFocus={this.onFocusHandler} onChange={this.onChangeHandler} onBlur={this.onBlurHandler}/>
-        <div className={classes.normalStateContainer} id="normalStateContainer"> 
+        <input type="text" className={classes.searchInput} id="searchInput" value={this.state.searchInput} onFocus={this.onFocusHandler} onChange={this.onChangeHandler} onBlur={this.onBlurHandler}/>
+        <div className={classes.normalStateContainer} id="normalStateContainer" onClick={this.onClickHandler}> 
         <FontAwesomeIcon icon="search"/>
         <span>Search</span>
         </div>
