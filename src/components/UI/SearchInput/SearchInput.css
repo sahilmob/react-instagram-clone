@@ -12,3 +12,27 @@
     padding: 3px 10px 3px 26px;
     box-sizing: content-box;
 }
+
+.searchInput:focus{
+    background: white;
+}
+
+.normalStateContainer{
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    font-size: 12px;
+    opacity: 1;
+}
+.normalStateContainer > span{
+    margin-left: 5px;
+}
+
+.onFocusIcon{
+    position: absolute;
+    top: 14px;
+    left:10px;
+    font-size: 12px;
+    color: lightgray;
+    opacity: 0;
+}

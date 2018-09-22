@@ -5,9 +5,9 @@ import FooterMenu from './components/FooterMenu/FooterMenu'
 import Profile from './containers/Profile/Profile'
 import classes from './App.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faHeart, faUser, faCompass, faCog, faTh, faBookmark, faTv, faIdBadge } from '@fortawesome/free-solid-svg-icons'
+import { faHeart, faUser, faCompass, faCog, faTh, faBookmark, faTv, faIdBadge, faSearch } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faHeart, faUser, faCompass, faCog, faTh, faBookmark, faTv, faIdBadge)
+library.add(faHeart, faUser, faCompass, faCog, faTh, faBookmark, faTv, faIdBadge, faSearch)
 
 class App extends Component {
   render() {

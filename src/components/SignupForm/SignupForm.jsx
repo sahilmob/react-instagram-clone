@@ -12,7 +12,7 @@ export default class SignupForm extends Component {
     }
     changeHandler = (event) => {
         var label = event.target.previousSibling
-
+        console.log(label)
         if (event.target.value === '') {
             label.style.fontSize = "12px";
             label.style.top = "16px";
