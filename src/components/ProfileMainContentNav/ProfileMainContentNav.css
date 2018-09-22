@@ -1,0 +1,36 @@
+.container{
+    border-top: 1px solid #dbdbdb;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.navItem{
+    margin: 0px 50px 0 0;
+    padding-top: 15px;
+    position: relative;
+    top: -1px;
+    color: #999;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navItemText{
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.navItemActive{
+    color: #262626;
+    font-weight: bolder;
+    margin: 0px 50px 0 0;
+    border-top: 1px solid #262626;
+    padding-top: 15px;
+    position: relative;
+    top: -1px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
