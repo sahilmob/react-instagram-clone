@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default () => {
   return (
+    <div className={classes.outer}>
     <div className={classes.container}> 
         <div className={classes.right}>
 
@@ -22,6 +23,7 @@ export default () => {
           <FontAwesomeIcon className={classes.icon}  icon="heart" />
           <FontAwesomeIcon className={classes.icon}  icon="user" />
         </div>
+    </div>
     </div>
   )
 }

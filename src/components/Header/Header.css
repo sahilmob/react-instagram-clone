@@ -1,8 +1,17 @@
+.outer{
+    left: 50%;
+    margin-left: -50vw;
+    width: 100vw;
+    background-color: white;
+    position: relative;
+    border: 1px solid #dbdbdb;
+}
 .container {
     display: flex;
     justify-content: space-between;
-    width: 930px;
     padding: 26px 0px;
+    max-width: 930px;
+    margin: auto;
 }
 
 .right{
