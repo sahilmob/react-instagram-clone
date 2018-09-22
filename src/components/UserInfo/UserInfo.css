@@ -1,0 +1,8 @@
+.container{
+    padding: 60px 20px 0 20px;
+}
+.userImg{
+    border-radius: 50%;
+    border:  1px solid lightgray;
+    cursor: pointer;
+}
