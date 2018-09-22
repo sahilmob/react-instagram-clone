@@ -1,8 +1,67 @@
 .container{
     padding: 60px 20px 0 20px;
+    display: flex;
+    align-items: center;
 }
 .userImg{
     border-radius: 50%;
-    border:  1px solid lightgray;
+    border:  1px solid #dbdbdb;
     cursor: pointer;
+    margin: auto 20px;
+}
+
+.middle{
+    margin-left: 100px;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+}
+
+.username{
+    font-size: 32px;
+    font-weight: 200;
+    color: #262626;
+}
+
+.editProfileBtn{
+    border: 0;
+    outline: 0;
+    border: 1px solid #dbdbdb;
+    background-color: transparent;
+    font-weight: bold;
+    color: #262626;
+    padding: 5px 9px;
+    border-radius: 4px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.settingIcon{
+    margin-left: 15px;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.center{
+    display: flex;
+    margin-top: 15px;
+}
+
+.stat{
+    color: #262626;
+    font-size: 16px;
+    margin-right: 25px;
+}
+.number{
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.bottom{
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #262626;
 }
