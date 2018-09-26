@@ -1,0 +1,9 @@
+.container{
+    margin: 20px auto 70px auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    grid-template-rows: auto;
+    grid-row-gap: 25px;
+}
+
