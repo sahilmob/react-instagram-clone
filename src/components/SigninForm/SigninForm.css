@@ -1,0 +1,101 @@
+.container {
+	border: 1px solid #e6e6e6;
+	background-color: white;
+	max-width: 350px;
+	padding: 22px 40px 40px 40px;
+	display: flex;
+	flex-direction: column;
+}
+.logo {
+	width: 175px;
+	margin: 0 auto;
+}
+
+.headLine {
+	font-size: 17px;
+	font-weight: 600;
+	line-height: 17px;
+	color: #999;
+	text-align: center;
+	margin: 12px auto;
+}
+
+.btn {
+	color: white;
+	background-color: #3897f0;
+	box-shadow: 0;
+	border: 0;
+	border-radius: 3px;
+	font-size: 14px;
+	font-weight: 600;
+	border: 1px solid #3897f0;
+	line-height: 26px;
+	padding: 0 12px;
+	width: 100%;
+	cursor: pointer;
+}
+
+.signUpwithFB {
+	margin: 8px auto;
+}
+
+.or {
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 15px;
+	color: #999;
+	display: flex;
+	align-items: center;
+	margin: 10px auto 18px auto;
+}
+.or::before,
+.or::after {
+	content: "";
+	display: block;
+	background-color: #efefef;
+	width: 110px;
+	height: 1px;
+}
+
+.or::before {
+	margin-right: 15px;
+}
+.or::after {
+	margin-left: 15px;
+}
+
+.signUpBtn {
+	margin-top: 10px;
+}
+
+.agreeMsg {
+	font-size: 14px;
+	line-height: 17px;
+	color: #999;
+	text-align: center;
+	max-width: 85%;
+	margin: 15px auto auto auto;
+}
+
+.errMsg {
+	margin-top: 15px;
+	color: red;
+	text-align: center;
+}
+
+@media (max-width: 874px) {
+	.container {
+		padding-top: 0;
+	}
+}
+
+@media (max-width: 449px) {
+	.container {
+		background-color: transparent;
+		border: none;
+		padding: 0px 0px 40px 0px;
+		max-width: 80%;
+		margin: auto;
+	}
+}
