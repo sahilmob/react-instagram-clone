@@ -16,7 +16,8 @@ import {
 	faTv,
 	faIdBadge,
 	faSearch,
-	faComment
+	faComment,
+	faUpload
 } from "@fortawesome/free-solid-svg-icons";
 import Feed from "./containers/Feed/Feed";
 
@@ -30,7 +31,8 @@ library.add(
 	faTv,
 	faIdBadge,
 	faSearch,
-	faComment
+	faComment,
+	faUpload
 );
 
 class App extends Component {
