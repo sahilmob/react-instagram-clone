@@ -18,6 +18,7 @@ import {
 	faSearch,
 	faComment
 } from "@fortawesome/free-solid-svg-icons";
+import Feed from "./containers/Feed/Feed";
 
 library.add(
 	faHeart,
@@ -40,6 +41,7 @@ class App extends Component {
 					<Switch>
 						<Route path="/" exact component={LandingPage} />
 						<Route path="/profile" exact component={Profile} />
+						<Route path="/feed" exact component={Feed} />
 						<Route path="/login" exact component={Signin} />
 						<Route
 							path="/register"
