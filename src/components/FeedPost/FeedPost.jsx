@@ -3,9 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import classes from "./FeedPost.css";
 import avatar1 from "../../static/img/avatar1.svg";
-import avatar2 from "../../static/img/avatar2.svg";
-import avatar3 from "../../static/img/avatar3.svg";
-import avatar4 from "../../static/img/avatar4.svg";
 import image1 from "../../static/img/1.jpg";
 export default class FeedPost extends Component {
 	render() {
